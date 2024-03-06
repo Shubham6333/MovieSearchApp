@@ -1,0 +1,68 @@
+.navbar-wrapper
+{
+      display:flex;
+      justify-content: space-between;
+      border: 1px solid #364f65;
+      padding: 1.5rem;
+      align-items: center;
+      background-color: #364f65;
+      color: white;
+}
+
+.navbar-wrapper div:nth-child(1)
+{
+      font-size: xx-large;
+      letter-spacing: 15px;
+}
+
+.navbar-wrapper div:nth-child(2)
+{
+    flex-basis: 65%;
+}
+
+.navbar-wrapper div:nth-child(2) input{
+       width: 100%;
+       padding: 10px;
+       height: 25px;
+       background-color:#32373e;
+       border-radius: 10px;
+       border: none;
+       color: white;
+}
+
+
+.search-bar
+{
+        position: relative;
+}
+
+#result-list
+{        
+        display: none;
+        position: absolute;
+        background-color: whitesmoke;
+        color: black;
+        width: 100%;
+        border-radius: 10px;
+}
+
+#result-list > .autocomplete-result
+{
+       font-size: large;
+       letter-spacing: 0;
+       margin-bottom: 1rem;
+       padding: 1rem;
+       border-bottom: 1px solid black;
+}
+
+
+.movie-base-title > a
+{
+       color: white;
+       text-decoration: none;
+}
+
+.autocomplete-result:hover
+{
+       background-color: gainsboro;
+}
